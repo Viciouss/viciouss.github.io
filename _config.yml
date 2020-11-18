@@ -1,0 +1,46 @@
+# Setup
+title: Viciouss' brain.txt
+url: https://viciouss.github.io/
+paginate: 1
+paginate_path: "/page:num/"
+baseurl: "/"
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Specify the author for blog posts
+author:
+  name: Martin
+
+# Navbar page list
+nav:
+  - title: Blog
+    url: /archive
+
+  - title: Pages
+    url: /pages
+
+  - title: About
+    url: /about
+
+collections:
+  static_pages:
+    output: true
