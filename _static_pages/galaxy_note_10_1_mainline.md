@@ -151,13 +151,7 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td class="mainline-open">Open</td>
         </tr>
         <tr>
-            <td>USB switch</td>
-            <td>-</td>
-            <td class="mainline-open">Open</td>
-            <td class="mainline-open">Open</td>
-        </tr>
-        <tr>
-            <td>30 Pin Extcon</td>
+            <td>30 Pin Extcon (USB switch)</td>
             <td>-</td>
             <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/blob/v5.6.5-p4note/drivers/extcon/extcon-p4note.c" target="_new"><sup>[*]</sup></a></td>
             <td class="mainline-open">Open</td>
@@ -168,7 +162,6 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/blob/v5.6.5-p4note-extcon/drivers/input/keyboard/samsung-ekd-k14.c" target="_new"><sup>[*]</sup></a></td>
             <td class="mainline-open">Open</td>
         </tr>
-        
         <tr>
             <td>MHL (HDMI)</td>
             <td>SII9244</td>
