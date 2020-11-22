@@ -178,6 +178,12 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td class="mainline-open">Open</td>
         </tr>
         <tr>
+            <td>Pen Input</td>
+            <td>Wacom G5SP</td>
+            <td class="mainline-open">Open</td>
+            <td class="mainline-open">Open</td>
+        </tr>
+        <tr>
             <th colspan="5">Camera</th>
         </tr>
         <tr>
