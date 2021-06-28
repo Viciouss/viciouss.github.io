@@ -5,6 +5,8 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
 
 <br/>
 
+Last update: 2021-06-28
+
 <table>
     <thead>
         <tr>
@@ -22,31 +24,31 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td>SoC Base</td>
             <td>Exynos4412</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>GPU</td>
             <td>Mali</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Audio Codec</td>
             <td>WM1811</td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/18fea83b230f99c26659ea23603e77a3499fb2db" target="_new"><sup>[*]</sup></a></td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/18fea83b230f99c26659ea23603e77a3499fb2db" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/c1d8e876dce0224baaf40f9711aba6da42502dbc" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/c1d8e876dce0224baaf40f9711aba6da42502dbc" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Wifi</td>
             <td>BCM4334</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Bluetooth</td>
             <td>BCM4334</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>GPS</td>
@@ -61,31 +63,25 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td>PMIC</td>
             <td>MAX77686</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>RTC</td>
             <td>MAX77686</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Fuel Gauge</td>
             <td>MAX17042</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Charger</td>
             <td>SMB347</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/ebe50f80950407c937f1ae21c891b9a8f1ac9a5e" target="_new"><sup>[*]</sup></a></td>
-        </tr>
-        <tr>
-            <td>Charger Manager</td>
-            <td>-</td>
-            <td class="mainline-open">Open</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/90312b0eeb88122616691d22aa70438797d69353" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <th colspan="5">Display</th>
@@ -93,20 +89,20 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
         <tr>
             <td>LCD</td>
             <td>Sec LTL101AL01-002</td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/57ad2e7b4fd50532ad80bf4626d030f15adb0a7e" target="_new"><sup>[*]</sup></a></td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/c512479a608599e6f5c91f77d4a842300ac9a4b3" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/560657613984dbd2cc3f98acd00a30b2b32278ae" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/560657613984dbd2cc3f98acd00a30b2b32278ae" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Backlight</td>
             <td>PWM + GPIO enabled</td>
             <td>-</td>
-            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/c512479a608599e6f5c91f77d4a842300ac9a4b3" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/2bf6526888707ba97dba029daaa0a8608bf3d577" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Touchscreen</td>
             <td>Atmel MXT1664S</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <th colspan="5">Sensors</th>
@@ -115,25 +111,25 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td>Compass</td>
             <td>AKM AK8975C</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Accelerometer</td>
             <td>STM LSM330DLC</td>
-            <td class="mainline-ok">Upstream</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-ok">Upstream <a href="https://github.com/Viciouss/linux/commit/04563b7696180ba9bda539de268ae2a33aa3f398" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/88b781e03a41db0f1e22593daa837160c0a90519" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Gyroscope</td>
             <td>STM LSM330DLC</td>
-            <td class="mainline-ok">Upstream</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-ok">Upstream <a href="https://github.com/Viciouss/linux/commit/a96d1377acbe91e24309a9f7fff88464c3f9c5a2" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/88b781e03a41db0f1e22593daa837160c0a90519" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Light</td>
             <td>Liteon-Semi AL3201</td>
-            <td class="mainline-open">Open</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/7384d21c05f55e7711218a6564736bfcbe74cf3f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/d70078cc802a8e6ff01aa230fb575542baff31a2" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <th colspan="5">Connector</th>
@@ -142,19 +138,19 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
             <td>USB peripheral mode</td>
             <td>DWC2</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-ok">Accepted <a href="https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git/commit/?h=for-next&id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.11) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f48b5050c301f7235ef61d8cbbbf0410a5e0245f" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>USB host mode</td>
             <td>DWC2</td>
-            <td class="mainline-ok">Upstream</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-ok">Upstream <a href="https://github.com/Viciouss/linux/commit/b36ec53ee5a170e9238fc9726781290e340e2623" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/af3b234993d2a7e0c3c74e07786e7e8af0d72164" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>30 Pin Extcon (USB switch)</td>
             <td>-</td>
-            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/blob/v5.6.5-p4note/drivers/extcon/extcon-p4note.c" target="_new"><sup>[*]</sup></a></td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/24584076dc6ba3441ae67250709541b14842856a" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/78f2d95c56b8caa3d9b40c96c330ab0b80ba36cc" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Keyboard Dock</td>
@@ -180,8 +176,8 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
         <tr>
             <td>Pen Input</td>
             <td>Wacom G5SP</td>
-            <td class="mainline-open">Open</td>
-            <td class="mainline-open">Open</td>
+            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/14b435adeb5f2679faa13880f6feb0b005b124bd" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/4ba0c9cf0b6fe6b7c2172bdaaf0290db4c075d00" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <th colspan="5">Camera</th>
