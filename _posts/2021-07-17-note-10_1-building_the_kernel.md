@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building the kernel
+date: 2021-07-17 18:30:00 +0200
 ---
 
 ## The sobering
