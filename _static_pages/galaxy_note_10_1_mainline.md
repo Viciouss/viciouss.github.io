@@ -5,7 +5,9 @@ title: Samsung Galaxy Note 10.1 Mainline Progress
 
 <br/>
 
-Last update: 2021-06-28
+Last update: 2022-04-10
+
+# Driver Upstreaming
 
 <table>
     <thead>
@@ -81,7 +83,7 @@ Last update: 2021-06-28
             <td>Charger</td>
             <td>SMB347</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/90312b0eeb88122616691d22aa70438797d69353" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (5.18) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=38dfe352b5a56df9cdf3e40ec5a09bb539757352" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <th colspan="5">Display</th>
@@ -210,5 +212,23 @@ Last update: 2021-06-28
             <td class="mainline-open">Open</td>
         </tr>
     </tbody>
-    
 </table>
+
+<br/>
+# Other Patches/Improvements
+
+<table>
+    <thead>
+        <tr>
+            <th>What</th>
+            <th>Patch</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BGR Support for Exynos4/5</td>
+            <td class="mainline-ok">Upstream (5.18)<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2d684f4e155c1e80ff63bd503930171c460eac5b" target="_new"><sup>[*]</sup></a></td>
+        </tr>
+    </tbody>
+</table>
+
