@@ -90,15 +90,15 @@ Last update: 2022-04-10
         </tr>
         <tr>
             <td>LCD</td>
-            <td>Sec LTL101AL01-002</td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/560657613984dbd2cc3f98acd00a30b2b32278ae" target="_new"><sup>[*]</sup></a></td>
-            <td class="mainline-wip">Downstream <a href="https://github.com/Viciouss/linux/commit/560657613984dbd2cc3f98acd00a30b2b32278ae" target="_new"><sup>[*]</sup></a></td>
+            <td>Sec LTL101AL01</td>
+            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Backlight</td>
-            <td>PWM + GPIO enabled</td>
-            <td>-</td>
-            <td class="mainline-wip">Experimental <a href="https://github.com/Viciouss/linux/commit/2bf6526888707ba97dba029daaa0a8608bf3d577" target="_new"><sup>[*]</sup></a></td>
+            <td>PWM Backlight</td>
+            <td class="mainline-ok">Upstream</td>
+            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Touchscreen</td>
