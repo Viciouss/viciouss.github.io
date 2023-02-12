@@ -91,14 +91,14 @@ Last update: 2022-04-10
         <tr>
             <td>LCD</td>
             <td>Sec LTL101AL01</td>
-            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
-            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (6.1) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a6aa679a70e9d8fa4ad3f519c060db9bb186e21c" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (6.0) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6c52573bf4c3a0f6e7142264fb36b31ae2c3707a" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Backlight</td>
             <td>PWM Backlight</td>
             <td class="mainline-ok">Upstream</td>
-            <td class="mainline-wip">In Review <a href="https://patchwork.kernel.org/project/linux-samsung-soc/list/?series=642086" target="_new"><sup>[*]</sup></a></td>
+            <td class="mainline-ok">Upstream (6.0) <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6c52573bf4c3a0f6e7142264fb36b31ae2c3707a" target="_new"><sup>[*]</sup></a></td>
         </tr>
         <tr>
             <td>Touchscreen</td>
