@@ -19,17 +19,17 @@ For the linux kernel, device tree files are compiled into device tree binaries (
 A defconfig file describes which architecture code and drivers get compiled in the kernel image. The exynos_defconfig looked promising, it already contains all the Exynos4 base drivers and some more, so I added the missing drivers and build the kernel:
 
 ```shell
-# we want to compile for a different architecture, the kernel build needs to know this
+# compile for a different architecture, the kernel build needs to know this
 export ARCH=arm
 # a cross compiler toolchain is needed to do this of course
 export CROSS_COMPILE=/opt/gcc-linaro-arm-linux-gnueabihf/bin/arm-linux-gnueabihf- 
 # this command takes the existing exynos_defconfig and copies it as .config to the 
 # out directory which is then used later on to build the kernel
 make O=out exynos_defconfig
-# before building, we edit the .config file, there are some drivers we need for the note 10.1
+# before building, edit the .config file, there are some drivers needed for the note 10.1
 # start the kernel config GUI, I prefer nconfig, there is others, use 'make help' for more
 make O=out nconfig
-# we have everything in place, let's build the kernel, the -j parameters tells the compiler
+# everything is in place, build the kernel, the -j parameters tells the compiler
 # how many threads to use, nproc --all returns the number of processors in the system
 make O=out -j$(nproc --all) 
 ```
@@ -39,9 +39,9 @@ The build usually only takes a couple of minutes on current hardware, from the r
 * out/arch/arm/boot/zImage
 * out/arch/arm/boot/dts/exynos4412-p4note-n8010.dtb
 
-The first file is the kernel image itself with all the architecture code and drivers that have been selected. It may contain drivers that we don't need, as is the case for the exynos_defconfig. This defconfig file compiles a kernel that can be used across all the existing exynos devices. But then, how does the kernel know which drivers to load? That's where the dtb file comes in. But now we do have a problem. The version of S-BOOT installed on the Exynos4 devices only knows about a kernel image that includes the board init code, it doesn't know how to handle a device tree. Luckily, there is a kernel option for this fallback case: CONFIG_ARM_APPENDED_DTB.
+The first file is the kernel image itself with all the architecture code and drivers that have been selected. It may contain drivers that are not needed, as is the case for the exynos_defconfig. This defconfig file compiles a kernel that can be used across all the existing exynos devices. But then, how does the kernel know which drivers to load? That's where the dtb file comes in. But now there is a problem. The version of S-BOOT installed on the Exynos4 devices only knows about a kernel image that includes the board init code, it doesn't know how to handle a device tree. Luckily, there is a kernel option for this fallback case: CONFIG_ARM_APPENDED_DTB.
 
-With this enabled, the kernel will look for the DTB file immediately after the kernel code itself. This means that we can do the following to create a kernel image which includes the DTB file at the end:
+With this enabled, the kernel will look for the DTB file immediately after the kernel code itself. This means that assembling the kernel image with attached DTB file is as easy as:
 
 ```shell
 cat out/arch/arm/boot/zImage out/arch/arm/boot/dts/exynos4412-p4note-n8010.dtb > zImage-dtb

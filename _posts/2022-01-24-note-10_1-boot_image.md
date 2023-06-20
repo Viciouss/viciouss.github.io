@@ -6,14 +6,14 @@ date: 2022-01-24 20:00:00 +0200
 
 ## Get to know your Boot Image
 
-To boot the device with S-Boot as boot loader, we need to provide an image that has a special format. This format is described on the <a href="https://source.android.com/devices/bootloader/boot-image-header" target="_new">Boot Image Header</a> page of the AOSP project. In our case, as the device was released with Android 4, this is the legacy header or version 0. It contains the following entries:
+To boot the device with S-Boot as boot loader, you need to provide an image that has a special format. This format is described on the <a href="https://source.android.com/devices/bootloader/boot-image-header" target="_new">Boot Image Header</a> page of the AOSP project. In our case, as the device was released with Android 4, this is the legacy header or version 0. It contains the following entries:
 
 * kernel image size and address
 * ramdisk size and address
 * second bootloader size and address
 * some meta data
 
-We are interested in the kernel image and ramdisk, on the Galaxy Note 10.1 the second stage boot loader (S-Boot) is not part of the boot image. It resides on its own partition.
+The interesting part here is the kernel image and ramdisk, on the Galaxy Note 10.1 the second stage boot loader (S-Boot) is not part of the boot image. It resides on its own partition.
 
 ## Creating a Boot Image
 
@@ -42,13 +42,13 @@ abootimg --create myboot.img \
 
 ## Bootloader and the Boot Image
 
-Now that we know how the image looks like, let's have a look at the boot process, especially how the boot image is taken care off.
+Now that you know how the image looks like, let's have a look at the boot process, especially how the boot image is taken care off.
 
-The second stage boot loader first looks at the boot partition and the boot image header. Depending on the numbers you provided, it puts everything in the right place in the memory of your device and then calls the kernel image entry point. As the device is from 2012 and neither uses nor supports a Device Tree entry in the boor image, parameters are still fed to the kernel with the ATAGS mechanism - that's what the **tagsaddr** attribute is for.
+The second stage boot loader first looks at the boot partition and the boot image header. Depending on the numbers you provided, it puts everything in the right place in the memory of your device and then calls the kernel image entry point. As the device is from 2012 and neither uses nor supports a Device Tree entry in the boot image, parameters are still fed to the kernel with the ATAGS mechanism - that's what the **tagsaddr** attribute is for.
 
 The ATAGS or kernel tagged list is an area in RAM where the boot loader puts parameters for the kernel to consider. There is a hand full of parameters, from memory size and location, ramdisk size and location to serial number, revision and command line. The bootloader then puts the address of this list into the R2 register, next to the R1 register which contains the machine type id. Only with those two pieces of information, the kernel can chose the right path of what to do next.
 
-Technically, we don't need the R1 and R2 registers and the parameters from the kernel tagged list, as we can describe all necessary parameters in the Device Tree for a specific device. Remember the config option to attach the DTB file at the end of the kernel? That's what we will do for the mainline kernel. Nevertheless, it is interesting to have these parameters from the boot loader to build our device tree in the first place.
+Technically, you don't need the R1 and R2 registers and the parameters from the kernel tagged list, as the Device Tree describes all necessary parameters for a specific device. Remember the config option to attach the DTB file at the end of the kernel? That's what will work for the mainline kernel. Nevertheless, it is interesting to have these parameters from the boot loader to build the device tree in the first place.
 
 Let's have a look at what they are for the Note 10.1 and how the vendor boot image deals with them:
 
